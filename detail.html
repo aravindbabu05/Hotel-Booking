@@ -1,3 +1,4 @@
+<!DOCTYPE HTML>
 <Html>
 <head>
 <title> Details</title>
@@ -9,7 +10,24 @@
 </div>
 <div class="Contenet Div">
     <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" />
-    <a href="payment.html" target="_blank"><p>Book Now</p></a>
+    <form action="">
+        <label for="adults">Adults :</label>
+        <input type="text" id="adults"  min="1" required>
+        <br/>
+        <label for="name">Name :</label>
+        <input type="text" id="name" required>
+        </br>
+        <label for="fromdate">From Date :</label>
+        <input type="date"  id="fromdate" placeholder="dd-mm-yyyy" required>
+        </br>
+        <label for="todate">To Date :</label>
+        <input type="date"  id="todate" placeholder="dd-mm-yyyy" required>
+        </br>
+        <label for="total">Total :</label>
+        <input type="text" diable="true" placeholer="&#8377" id="total">
+        </br>
+        <button formaction="payment.html">Submit</button>
+    </form>
     <h2>Radison Hotel</h2>
     <h5>Rating</h5>
     <p>5 Star</p>
