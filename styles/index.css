@@ -1,0 +1,20 @@
+.body{
+ height: 100%;
+ width: 100%;
+ background-color:#e0e0e0;
+}
+.Content{
+ height: 100%;
+ width: 100%;
+}
+#header{
+background-color:rosybrown;
+}
+.footer{
+background-color:rosybrown;
+}
+#searchbar{
+background-image:url('https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg');
+height:350px;
+width:100%;
+}
